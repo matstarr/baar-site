@@ -1,2 +1,41 @@
-footer {margin-top:3em;}
-.glyphicon-fire {color:$brand-primary;}
+html, body {
+    height: 100%;
+}
+
+.fullpage {
+    height: 100%;
+}
+
+header#cover-top {
+    background: url('../img/header-left.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+footer {
+    margin-top:3em;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    
+    > .row {
+        
+        > .maps {
+            background: #fff;
+            
+            > .googlemap {
+                width: 100% !important;
+                height: 300px;
+                display: block;
+                opacity: 0.6;
+            }
+        }
+        > .contact {
+            > .container {
+                padding: 20px;
+            }
+        }
+    }
+}
+
