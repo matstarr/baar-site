@@ -10,6 +10,13 @@ header#cover-top {
     background: url('../img/header-left.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    > h1 {
+      color: #fff;
+      > small {
+        color: #555;
+      }
+    }
 }
 
 
@@ -18,12 +25,12 @@ footer {
     background: #000;
     color: #fff;
     font-size: 14px;
-    
+
     > .row {
-        
+
         > .maps {
             background: #fff;
-            
+
             > .googlemap {
                 width: 100% !important;
                 height: 300px;
@@ -38,4 +45,3 @@ footer {
         }
     }
 }
-

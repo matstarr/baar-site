@@ -3759,18 +3759,14 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
+  padding: 39px 15px;
   font-size: 20px;
   line-height: 22px;
   height: 100px; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
-  .navbar-brand > a {
-    padding: 0; }
   .navbar-brand > img {
-    display: block;
-    max-height: 100px;
-    margin: 0;
-    padding: 0; }
+    display: block; }
   @media (min-width: 768px) {
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
@@ -5886,6 +5882,10 @@ header#cover-top {
   background: url("../img/header-left.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+  header#cover-top > h1 {
+    color: #fff; }
+    header#cover-top > h1 > small {
+      color: #555; }
 
 footer {
   margin-top: 3em;
