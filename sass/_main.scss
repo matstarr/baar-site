@@ -2,6 +2,21 @@ html, body {
     height: 100%;
 }
 
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+    > img {
+      width: 100%;
+      max-height: 100px;
+    }
+}
+
+.flex-header {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .fullpage {
     height: 100%;
 }
@@ -10,11 +25,15 @@ header#cover-top {
     background: url('../img/header-left.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-    > h1 {
-      color: #fff;
-      > small {
-        color: #555;
+    > .flex-header {
+      > h1 {
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        background: rgba(255,255,255,0.5);
+        > small {
+          color: #222;
+        }
       }
     }
 }

@@ -5875,6 +5875,18 @@ button.close {
 html, body {
   height: 100%; }
 
+a.navbar-brand {
+  padding: 0;
+  margin: 0; }
+  a.navbar-brand > img {
+    width: 100%;
+    max-height: 100px; }
+
+.flex-header {
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
 .fullpage {
   height: 100%; }
 
@@ -5882,10 +5894,13 @@ header#cover-top {
   background: url("../img/header-left.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed; }
-  header#cover-top > h1 {
-    color: #fff; }
-    header#cover-top > h1 > small {
-      color: #555; }
+  header#cover-top > .flex-header > h1 {
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5); }
+    header#cover-top > .flex-header > h1 > small {
+      color: #222; }
 
 footer {
   margin-top: 3em;
