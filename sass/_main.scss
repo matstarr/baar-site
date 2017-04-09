@@ -6,15 +6,9 @@ a.navbar-brand {
     padding: 0;
     margin: 0;
     > img {
-      width: 100%;
+      width: auto;
       max-height: 100px;
     }
-}
-
-.flex-header {
-  display:flex;
-  align-content: center;
-  justify-content: center;
 }
 
 .fullpage {
@@ -22,10 +16,18 @@ a.navbar-brand {
 }
 
 header#cover-top {
-    background: url('../img/header-left.jpg') center center no-repeat;
+    background-image: url('../img/header-left.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    > .flex-header {
+    
+    > .header-text {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        text-align: left;
+        
       > h1 {
         color: #fff;
         padding: 20px;

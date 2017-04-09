@@ -31,7 +31,7 @@
 <body class="sparky bootstrap home">
   <header id="cover-top" class="fullpage">
     <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
                     <span class="sr-only">Navigation an/aus</span>
@@ -43,29 +43,121 @@
                     <img class="img-responsive" src="img/logo_baar.png">
                 </a>
             </div>
-            <div class="collapse navbar-collapse header-collapse">
+            
+            <div class="collapse navbar-collapse js-navbar-collapse">
                 <ul class="nav navbar-nav pull-right">
+                    <li><a href="#">Neues</a></li>
+                    <li><a href="#">Über uns</a></li>
+                    <li class="dropdown mega-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Leistungen</a>
+
+                        <ul class="dropdown-menu mega-dropdown-menu row">
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">New in Stores</li>                            
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="item active">
+                                            <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
+                                            <h4><small>Summer dress floral prints</small></h4>                                        
+                                            <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
+                                        </div><!-- End Item -->
+                                        <div class="item">
+                                            <a href="#"><img src="http://placehold.it/254x150/ef5e55/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
+                                            <h4><small>Gold sandals with shiny touch</small></h4>                                        
+                                            <button class="btn btn-primary" type="button">9,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
+                                        </div><!-- End Item -->
+                                        <div class="item">
+                                            <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
+                                            <h4><small>Denin jacket stamped</small></h4>                                        
+                                            <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
+                                        </div><!-- End Item -->                                
+                                      </div><!-- End Carousel Inner -->
+                                    </div><!-- /.carousel -->
+                                    <li class="divider"></li>
+                                    <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Dresses</li>
+                                    <li><a href="#">Unique Features</a></li>
+                                    <li><a href="#">Image Responsive</a></li>
+                                    <li><a href="#">Auto Carousel</a></li>
+                                    <li><a href="#">Newsletter Form</a></li>
+                                    <li><a href="#">Four columns</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Tops</li>
+                                    <li><a href="#">Good Typography</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Jackets</li>
+                                    <li><a href="#">Easy to customize</a></li>
+                                    <li><a href="#">Glyphicons</a></li>
+                                    <li><a href="#">Pull Right Elements</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Pants</li>
+                                    <li><a href="#">Coloured Headers</a></li>
+                                    <li><a href="#">Primary Buttons & Default</a></li>
+                                    <li><a href="#">Calls to action</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Accessories</li>
+                                    <li><a href="#">Default Navbar</a></li>
+                                    <li><a href="#">Lovely Fonts</a></li>
+                                    <li><a href="#">Responsive Dropdown </a></li>							
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Newsletter</li>
+                                    <form class="form" role="form">
+                                      <div class="form-group">
+                                        <label class="sr-only" for="email">Email address</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email">                                                              
+                                      </div>
+                                      <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                    </form>                                                       
+                                </ul>
+                            </li>
+                            
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Partner</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+
+            </div><!-- /.nav-collapse -->
+               
+               
+               
+               
+               
+           <!--<div class="collapse navbar-collapse header-collapse">
+                <ul class="nav navbar-nav pull-right">
+                    
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Leistungen <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+                        <ul class="own-dropdown-menu">
                             <li><a href="#">Fahrzeugbeschriftung</a></li>
                             <li><a href="#">Textilveredelung</a></li>
                             <li><a href="#">Digitaldruck</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Partner</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    
                 </ul>
-            </div>
-        </div>
+            </div> --> <!-- //navbar-collapse -->
+        </div><!-- //containerfluid -->
     </nav>
-    <div class="flex-header">
-        <h1>Beschriftung & Stickerei Baar <br><small>Ihr kompetenter Ansprechpartner in Bischofswiesen</small></h1>
+    <div class="header-text">
+        <h1>Beschriftung & Stickerei Baar <br><small>Ihr kompetenter Ansprechpartner für Beschriftung und Stickerei in Bischofswiesen</small></h1>
     </div>
   </header>
 
-  <main class="fullpage">
-      <div class="container">
+  <main class="container">
+      <div class="row">
           <h1 class="text-center">Unsere Leistungen</h1>
           <hr>
           <div class="col-md-4">
@@ -173,16 +265,18 @@
      </div>
  </main>
 
-  <footer class="bg-gray-dark">
+  <footer class="bg-gray-dark container-fluid">
       <div class="row">
           <div class="col-xs-12 maps">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5378.179838859848!2d12.979140000001365!3d47.62438333377185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4776ecf9b5e6918b%3A0x1c972d6c347aab6b!2sGebirgsj%C3%A4gerstra%C3%9Fe+50%2C+83483+Bischofswiesen%2C+Deutschland!5e0!3m2!1sde!2sde!4v1427357010963" class="googlemap" frameborder="0"></iframe>
           </div>
       </div>
-      <div class="row">
-          <div class="col-xs-12 contact">
-              <div class="container">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nam, qui consectetur? Amet veniam odio voluptas sed, consequatur eum sit magni commodi perferendis. Incidunt alias facilis consequuntur, repellat, est exercitationem.</p>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 contact">
+                  <div class="container">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nam, qui consectetur? Amet veniam odio voluptas sed, consequatur eum sit magni commodi perferendis. Incidunt alias facilis consequuntur, repellat, est exercitationem.</p>
+                  </div>
               </div>
           </div>
       </div>
