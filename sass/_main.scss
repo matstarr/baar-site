@@ -15,6 +15,16 @@ a.navbar-brand {
     height: 100%;
 }
 
+.btn-primary {
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e67e22;
+    border-color: rgb(109, 109, 109);
+}
+
 header#cover-top {
     background-image: url('../img/header-left.jpg');
     background-repeat: no-repeat;
@@ -32,9 +42,9 @@ header#cover-top {
         color: #fff;
         padding: 20px;
         border-radius: 5px;
-        background: rgba(255,255,255,0.5);
+        background: rgba(0, 0, 0, 0.91);//rgb(69, 176, 255)
         > small {
-          color: #222;
+          color: #dcdcdc;
         }
       }
     }

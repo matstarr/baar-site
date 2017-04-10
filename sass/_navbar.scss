@@ -1,10 +1,11 @@
 .navbar-default {
     background: transparent;
     transition: background 0.8s ease;
+    padding-bottom: 5px;
 }
 
 .scrolled {
-    background: rgba(85, 85, 85, 0.95) !important;
+    background: #e67e22 !important; //rgba(85, 85, 85, 0.95)
     transition: background 0.8s ease;
 }
 
@@ -15,6 +16,7 @@
 .navbar-default .navbar-nav > li > a { 
     font-size: 125%;
     font-weight: normal;
+    text-transform: uppercase;
 }
 
 .dropdown-menu {

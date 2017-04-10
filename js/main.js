@@ -8,7 +8,7 @@ $(document).ready(function(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 100) {
+    if (scroll >= 150) {
         $(".navbar-default").addClass('scrolled');
         $(".navbar-default").removeClass('navbar-static-top').addClass('navbar-fixed-top');
     } else {
@@ -17,3 +17,12 @@ $(window).scroll(function() {
     }
 });
 
+$('.row1 .card').inviewport({
+  threshold: 75, 
+  className: 'animated fadeInLeft'
+});
+
+$('.row2 .card').inviewport({
+  threshold: 75, 
+  className: 'animated fadeInRight'
+});
