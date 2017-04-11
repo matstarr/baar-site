@@ -6,17 +6,19 @@
 
 .scrolled {
     background: #e67e22 !important; //rgba(85, 85, 85, 0.95)
-    transition: background 0.8s ease;
+    transition: background 0.4s ease;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     text-decoration: overline;
+    top: 5px;
 }
 
 .navbar-default .navbar-nav > li > a { 
     font-size: 125%;
     font-weight: normal;
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 .dropdown-menu {
