@@ -8485,6 +8485,14 @@ footer {
   background: #2c3e50;
   color: #fff;
   font-size: 14px; }
+  footer h4 {
+    border-bottom: 1px solid #fff;
+    width: 50%; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+    footer ul > li {
+      list-style: none; }
   footer a {
     color: #fff; }
     footer a:hover {
