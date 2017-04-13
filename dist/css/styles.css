@@ -8502,8 +8502,7 @@ footer {
     footer .maps > .googlemap {
       width: 100% !important;
       height: 300px;
-      display: block;
-      opacity: 0.6; }
+      display: block; }
 
 .contact {
   padding: 20px;
