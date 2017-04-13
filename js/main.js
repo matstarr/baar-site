@@ -17,6 +17,10 @@ $(window).scroll(function() {
     }
 });
 
+$('.map-overlay').click(function(){
+   $(this).addClass('scrollable') 
+});
+
 $('.row1 .card').inviewport({
   threshold: 75, 
   className: 'animated fadeInLeft'
