@@ -21,7 +21,7 @@ a.navbar-brand {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #e67e22;
+    background-color: #2c3e50;
     border-color: rgb(109, 109, 109);
 }
 
@@ -42,7 +42,7 @@ header#cover-top {
         color: #fff;
         padding: 20px;
         border-radius: 5px;
-        background: rgba(0, 0, 0, 0.91);//rgb(69, 176, 255)
+        background: #2c3e50;//rgb(69, 176, 255)
         > small {
           color: #dcdcdc;
         }
@@ -50,13 +50,24 @@ header#cover-top {
     }
 }
 
+.page-bg {
+    background: url('../img/bgbaar.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 footer {
     margin-top:3em;
-    background: #000;
+    background: #2c3e50;
     color: #fff;
     font-size: 14px;
 
+    a {
+        color: #fff;
+        &:hover {
+            color: #ddd;
+        }
+    }
     > .row {
 
         > .maps {
@@ -69,10 +80,10 @@ footer {
                 opacity: 0.6;
             }
         }
-        > .contact {
-            > .container {
-                padding: 20px;
-            }
-        }
     }
+}
+
+.contact {
+    padding: 20px;
+    margin: 20px 20px;
 }
