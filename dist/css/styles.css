@@ -8498,7 +8498,7 @@ footer {
     footer a:hover {
       color: #ddd; }
   footer > .row > .maps {
-    background: #fff; }
+    background: #2c3e50; }
     footer > .row > .maps > .googlemap {
       width: 100% !important;
       height: 300px;
