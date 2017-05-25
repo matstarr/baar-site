@@ -8482,7 +8482,7 @@ header#cover-top {
       text-align: center; }
       header#cover-top > .header-text > h1 > small {
         color: #dcdcdc; }
-      header#cover-top > .header-text > h1hover {
+      header#cover-top > .header-text > h1 :hover {
         background-color: rgba(0, 0, 0, 0.4); }
 
 main#leistungen {
