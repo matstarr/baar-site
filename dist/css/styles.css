@@ -8259,6 +8259,9 @@ button.close {
   top: 5px;
   border-top: 5px solid #fff; }
 
+.navbar {
+  margin-bottom: 0px; }
+
 .navbar-default .navbar-nav > li > a {
   font-size: 125%;
   font-weight: normal;
@@ -8463,17 +8466,27 @@ header#cover-top {
   background-size: cover;
   background-attachment: fixed; }
   header#cover-top > .header-text {
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
-    text-align: left; }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    vertical-align: middle;
+    height: 100vh;
+    width: 100%;
+    justify-content: center; }
     header#cover-top > .header-text > h1 {
       color: #fff;
       padding: 20px;
       border-radius: 5px;
-      background: #2c3e50; }
+      font-size: 60px;
+      text-align: center; }
       header#cover-top > .header-text > h1 > small {
         color: #dcdcdc; }
+      header#cover-top > .header-text > h1hover {
+        background-color: rgba(0, 0, 0, 0.4); }
+
+main#leistungen {
+  padding-top: 100px; }
 
 .page-bg {
   background: url("../img/bgbaar.jpg") no-repeat center center;
