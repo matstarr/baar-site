@@ -8427,6 +8427,10 @@ main.subsite-spacer {
 
 main {
   padding-bottom: 3em; }
+  main .gallery {
+    margin-bottom: 10px; }
+  main .description {
+    padding-bottom: 50px; }
 
 .page-bg {
   background: url("../img/bgbaar.jpg") no-repeat center center;
