@@ -8254,6 +8254,10 @@ button.close {
   background: #2c3e50 !important;
   transition: background 0.4s ease; }
 
+.unscrolled {
+  transition: background 0.8s ease;
+  background: transparent; }
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
   text-decoration: none;
   top: 5px;
