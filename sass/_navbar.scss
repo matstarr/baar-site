@@ -9,7 +9,7 @@
     transition: background 0.4s ease;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
     text-decoration: none;
     top: 5px;
     border-top: 5px solid #fff;
