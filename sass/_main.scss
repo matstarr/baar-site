@@ -28,6 +28,13 @@ h6 {
   font-weight: bold;
 }
 
+h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small {
+    color: inherit;
+}
+
+label {
+    font-size: 125%;
+}
 
 a.navbar-brand {
     padding: 0;
@@ -37,6 +44,7 @@ a.navbar-brand {
       max-height: 100px;
     }
 }
+
 
 .fullpage {
     height: 100%;
@@ -73,20 +81,27 @@ header#cover-top {
       > h1 {
         color: #fff;
         padding: 20px;
-        border-radius: 200px;
         font-size: 3.5rem;
         text-align: center;
-        background-color: rgba(0,0,0,0.4);
+        text-shadow: 1px 1px #333;
 
         > small {
-          color: #dcdcdc;
+            color: #fff;
+            text-shadow: 1px 1px #333;
         }
       }
 
       .btn-primary {
-          color: #fff;
-          background: rgba(44, 62, 80, 0.9);
-          border-color: #fff;
+          color: rgba(44, 62, 80, 1);
+          background: rgba(255, 255, 255, 0.9);
+          border-color: rgba(44, 62, 80, 0.9);
+          transition: all 0.4s ease;
+          
+          &:hover {
+              color: rgba(255, 255, 255, 1);
+              background: rgba(44, 62, 80, 0.9);
+              border-color: rgba(255, 255, 255, 0.9);
+          }
       }
     }
 }
@@ -152,7 +167,7 @@ footer {
     font-size: 14px;
 
     h2 {
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     h4 {

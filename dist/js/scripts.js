@@ -687,10 +687,10 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 150) {
-        $(".navbar-default").addClass('scrolled').removeClass('unscrolled');
+        $(".navbar-default").addClass('scrolled');
         $(".navbar-default").removeClass('navbar-static-top').addClass('navbar-fixed-top');
     } else {
-        $(".navbar-default").removeClass('scrolled').addClass('unscrolled');
+        $(".navbar-default").removeClass('scrolled');
         $(".navbar-default").removeClass('navbar-fixed-top').addClass('navbar-static-top');
     }
 });
