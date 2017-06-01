@@ -1,12 +1,8 @@
 <?php
-/**
- * The template for displaying the frontpage
- *
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package Baar_Theme
- */
+/*
+*
+*
+*/
 include('front-header.php');
 ?>
 <main class="container-fluid page-bg">
@@ -15,12 +11,14 @@ include('front-header.php');
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <?php the_content(); ?>
+            <h2 class="text-center">Herzlich willkommen<br> <small>bei der Beschriftung und Stickerei Baar in Bischofswiesen</small></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <hr>
   <div id="leistungen">
     <div class="container">
       <div class="row row1 clearfix">

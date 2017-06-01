@@ -1,16 +1,3 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Baar_Theme
- */
-
-?>
-
 <footer class="container-fluid">
     <div class="row">
       <div class="container contact">
@@ -58,7 +45,7 @@
                 <h4>Leistungen</h4>
               <?php wp_nav_menu(array(
                   'menu' => 'footer',
-                  'theme_location' => 'footer'
+                  'theme_location' => 'footer'                  
               ));
               ?>
               <h4>Rechtliches</h4>
@@ -92,7 +79,10 @@
       </div>
     </div>
 </footer>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+      <script>
+      window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+      </script>
       <!-- Your custom scripts compressed  -->
       <script src="js/scripts.min.js" async></script>
       <!-- Add scripts that are not critical but simply enhance - like social sharing widgets -->
@@ -110,14 +100,14 @@
       </script>
         <!-- FB Include -->
       <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-      <?php wp_footer(); ?>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   </body>
 
 </html>
