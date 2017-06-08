@@ -87,6 +87,9 @@
           <div class="col-xs-12 col-sm-12 col-md-4">
             <h4>Facebook</h4>
             <div class="fb-page" data-href="https://www.facebook.com/Beschriftung-Stickerei-Baar-319097548186917/" data-tabs="timeline" data-width="1000" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Beschriftung-Stickerei-Baar-319097548186917/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Beschriftung-Stickerei-Baar-319097548186917/">Beschriftung &amp; Stickerei Baar</a></blockquote></div>
+            <div class="copyright">
+              <p>&copy; 2017 Beschriftung Stickerei Baar</p>
+            </div>
           </div>
         </div>
       </div>
