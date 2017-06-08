@@ -8436,10 +8436,10 @@ header#cover-top {
 header#subsite-cover-top {
   background: #2c3e50 !important; }
 
-div#leistungen, div#welcome {
+section#leistungen, section#welcome {
   padding-top: 100px; }
 
-div#welcome {
+section#welcome {
   background-color: rgba(44, 62, 80, 0.9);
   color: #fff;
   padding-bottom: 100px; }
@@ -8507,10 +8507,12 @@ footer {
   footer .footer-bottom {
     padding: 20px; }
 
+.copyright {
+  padding-top: 40px;
+  text-align: center; }
+
 @media (max-width: 768px) {
   html, body {
     font-size: 14px; }
   header#cover-top > .header-text > h1 {
     font-size: 2.5rem; } }
-
-/*# sourceMappingURL=styles.css.map */

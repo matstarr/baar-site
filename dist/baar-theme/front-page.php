@@ -10,18 +10,16 @@
 include('front-header.php');
 ?>
 <main class="container-fluid page-bg">
-  <div class="row">
-    <div id="welcome">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <?php the_content(); ?>
-          </div>
+  <section id="welcome" class="row">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <?php the_content(); ?>
         </div>
       </div>
     </div>
-  </div>
-  <div id="leistungen">
+  </section>
+  <section id="leistungen">
     <div class="container">
       <div class="row row1 clearfix">
       <h2 class="text-center">Unsere Leistungen</h2>
@@ -133,7 +131,7 @@ include('front-header.php');
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 </main>
 <?php get_footer(); ?>
