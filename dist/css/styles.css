@@ -5837,8 +5837,7 @@ button.close {
 .card .card-image img {
   border-radius: 2px 2px 0 0;
   background-clip: padding-box;
-  position: relative;
-  z-index: -1; }
+  position: relative; }
 
 .card .card-image span.card-title {
   position: absolute;
@@ -5874,7 +5873,7 @@ button.close {
   text-decoration: none; }
 
 .card {
-  opacity: 0; }
+  opacity: 1; }
 
 .in-view {
   opacity: 1 !important; }
@@ -8245,7 +8244,7 @@ button.close {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
-.navbar-default {
+.navbar {
   background: transparent;
   transition: background 0.8s ease;
   padding-bottom: 5px; }
@@ -8254,10 +8253,10 @@ button.close {
   background: #2c3e50 !important;
   transition: background 0.4s ease; }
 
-.navbar-default .navbar-nav > li > a {
+.navbar .navbar-nav > li > a {
   transition: all 0.4s ease; }
 
-.navbar-default .navbar-nav > li > a::before, .navbar-default .navbar-nav > li.active > a::before {
+.navbar .navbar-nav > li > a::before, .navbar .navbar-nav > li.active > a::before {
   position: absolute;
   width: 80%;
   height: 0px;
@@ -8267,17 +8266,17 @@ button.close {
   transition: all 0.4s ease;
   border-radius: 3px; }
 
-.navbar-default .navbar-nav > li > a:hover::before, .navbar-default .navbar-nav > li > a:focus::before, .navbar-default .navbar-nav > li.active > a::before {
+.navbar .navbar-nav > li > a:hover::before, .navbar .navbar-nav > li > a:focus::before, .navbar .navbar-nav > li.active > a::before {
   height: 4px; }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar .navbar-nav > li.active > a {
   text-decoration: none;
   transform: translateY(4px); }
 
 .navbar {
   margin-bottom: 0px; }
 
-.navbar-default .navbar-nav > li > a {
+.navbar .navbar-nav > li > a {
   font-size: 125%;
   font-weight: normal;
   text-transform: uppercase;
@@ -8304,7 +8303,7 @@ button.close {
     height: 80%; }
 
 @media (max-width: 1023px) {
-  .navbar-default .navbar-nav > li > a {
+  .navbar .navbar-nav > li > a {
     font-size: 90% !important; }
   a.navbar-brand {
     display: flex;
@@ -8318,9 +8317,9 @@ button.close {
   .collapse > .navbar-nav {
     flex-direction: column;
     background: #2c3e50; }
-  .navbar-default {
+  .navbar {
     background: #2c3e50; }
-  .navbar-default .navbar-nav > li > a::before, .navbar-default .navbar-nav > li.active > a::before {
+  .navbar .navbar-nav > li > a::before, .navbar .navbar-nav > li.active > a::before {
     position: absolute;
     width: 80%;
     height: 0px;
@@ -8329,9 +8328,9 @@ button.close {
     top: 20px;
     transition: all 0.4s ease;
     border-radius: 3px; }
-  .navbar-default .navbar-nav > li > a:hover::before, .navbar-default .navbar-nav > li > a:focus::before, .navbar-default .navbar-nav > li.active > a::before {
+  .navbar .navbar-nav > li > a:hover::before, .navbar .navbar-nav > li > a:focus::before, .navbar .navbar-nav > li.active > a::before {
     height: 0px; }
-  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
+  .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar .navbar-nav > li.active > a {
     text-decoration: none;
     transform: translateY(0px); }
   .collapse {

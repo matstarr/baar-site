@@ -9,11 +9,11 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 150) {
-        $(".navbar-default").addClass('scrolled');
-        $(".navbar-default").removeClass('navbar-static-top').addClass('navbar-fixed-top');
+        $(".navbar").addClass('scrolled');
+        $(".navbar").removeClass('sticky-top').addClass('fixed-top');
     } else {
-        $(".navbar-default").removeClass('scrolled');
-        $(".navbar-default").removeClass('navbar-fixed-top').addClass('navbar-static-top');
+        $(".navbar").removeClass('scrolled');
+        $(".navbar").removeClass('fixed-top').addClass('sticky-top');
     }
 });
 

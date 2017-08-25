@@ -18,13 +18,12 @@
 
 .card .card-image {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 .card .card-image img {
   border-radius: 2px 2px 0 0;
   background-clip: padding-box;
   position: relative;
-  z-index: -1;
 }
 .card .card-image span.card-title {
   position: absolute;
@@ -60,7 +59,7 @@
   text-decoration: none;
 }
 
-.card { opacity: 0; }
+.card { opacity: 1; }
 
 .in-view {
     opacity: 1 !important;
